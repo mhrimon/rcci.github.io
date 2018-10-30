@@ -1,0 +1,265 @@
+*{margin:0;padding:0;}
+body{
+	background-color:orange;
+}
+.container{
+	background-color: #B3E6F1;
+	margin-top: 30px;
+	box-shadow: 1px 1px 1px 1px;
+	height: 100%;
+	width: 100%;
+}
+header{
+     background-color: #fff;
+     margin-right: -15px;
+     margin-left: -15px;
+    margin-top: 1px;
+     height: 138px;
+     box-shadow:  3px 11px 11px;color: #7f7f7f;
+
+
+}
+.name{
+	line-height: 1.8;
+	text-align: center;
+	color: gray;
+	font-family: georgia;
+}
+.img_wrap{
+    
+
+}
+.img_wrap img{
+	background-color: gray;
+	color: gray;
+	margin-top:5px;
+    width: 140px;
+    height:125px;
+    padding-left:-25px;
+    margin-left: 15px;
+    float: left; 
+}
+
+.nav{
+
+	background-color:#50A0FF;
+	height: 40px;
+	border-top: 1px solid #fff;
+	margin-right: -15px;
+     margin-left: -15px;
+	margin-top:-15px;
+	border-bottom: 1px solid #6666;
+}
+.nav ul{
+     
+	list-style-type: none;
+	z-index: 999;
+}
+.nav ul li{
+	float: left;
+	border-right: 1px solid #6B710E;
+}
+.nav ul li:last-child{
+	border:none;
+}
+.nav ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 10px 28px;
+    color: #ffffff;
+    font-family:arial; 
+
+}
+.nav ul li a:hover{
+	color: lightgreen;
+}
+.nav ul li{
+	position: relative;
+}
+.nav ul li ul{
+	position: absolute;
+	left: -99999px;
+	background-color:#1FB2E8;
+}
+.nav ul li:hover ul{
+	left: 0;
+}
+.nav ul li ul:first-child{
+	border-top: 1px solid #6B710E;
+}
+.nav ul li ul li{
+	float: none;
+	border-right:none;
+	border-bottom: 1px solid #6B710E; 
+    width: 127px;
+}
+
+.carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .section{
+  	
+  	border-top: 1px solid #6B710E;
+  	height: 350px;
+  	width: 100%;
+  	background-color: ;
+  }
+  .box_shadow{
+  	
+  }
+  .section{
+    height: 1020px;
+  }
+  .low_section{
+    height: 190px;
+    background-color: #4189DD;
+  }
+  .principle{
+
+        text-align: center;
+        margin-top: 25px;
+  }
+  .Notice{
+
+  	margin-top: 25px;
+  }
+  .shadow{
+  	background-color:lightgray;
+  	box-shadow: 1px 1px 11px 1px;
+  	height: 250px;
+  	color: black;
+  	transition-duration: .4s;
+  }
+  .portal{
+  	height: 400px;
+  	width: 100%;
+  }
+  .h2{
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #50A0FF;
+    width: 1170px;
+    height: 100px;
+  }
+  .principle_shadow{
+   box-shadow: 0px 11px 0px 0px;
+   color: #7f7f7f;
+    border:thin solid #e1e1e1;
+    display: block;
+      float: left;
+      height: 340px;
+      background-color: #bbbdee;
+      width: 234px;
+
+  }
+  .one_shadow{
+    box-shadow: 6px 8px 11px;color: #7f7f7f;
+    border:thin solid #e1e1e1;
+    display: block;
+      float: left;
+      height: 250px;
+      background-color: #fff;
+      width: 240px;
+
+}
+.Details h4{
+  color: red;
+  margin-top: 10px;
+}
+.Details p{
+  color: purple;
+  font-size: 14px;
+  font-family: Georgia, serif;
+}
+.social_media{
+  text-align: center;
+  padding-left: 30px;
+  width: 320px;
+  height: 93px;
+  float: center;
+  margin-left: 100px;
+
+}
+
+.social_media ul li {
+  vertical-align: baseline;
+  list-style-type: none;
+  float: left;
+  padding-left: 0px;
+}
+.facebook{
+  margin-right: 20px;
+  padding-left: 40px;
+  width:45px;
+  height: 45px;
+  background-color: gray;
+  padding-top:8px;
+  border-radius: 44px 44px 44px 44px;
+}
+.facebook :hover{
+  background-color: #EEE;
+    margin-top: -8px;
+  padding-top:8px;
+  width: 46px;
+  height: 46px;
+  border-radius: 44px 44px 44px 44px;
+  transform: rotateZ(360deg);
+  transition-duration: .3s;
+}
+.twitter{
+  margin-right: 20px;
+  padding-left: 40px;
+  width:45px;
+  height: 45px;
+  background-color: gray;
+  padding-top:8px;
+  border-radius: 44px 44px 44px 44px;
+}
+.twitter:hover{
+  background-color: red;
+   
+  padding-top:8px;
+  width: 45px;
+  height: 45px;
+  border-radius: 44px 44px 44px 44px;
+  transform: rotateZ(360deg);
+  transition-duration: .3s;
+}
+.instragram{
+  padding-left: 40px;
+  width:45px;
+  height: 45px;
+  background-color: gray;
+  padding-top:8px;
+  border-radius: 44px 44px 44px 44px;
+}
+.instragram :hover{
+  background-color: #FFFF;
+    margin-top: -8px;
+  padding-top:8px;
+  width: 46px;
+  height: 46px;
+  border-radius: 44px 44px 44px 44px;
+  transform: rotateZ(360deg);
+  transition-duration: .3s;
+}
+.video{
+  margin-left: 10px;
+  border: 1px solid black ;
+  width: 45%;
+  height: 430px;
+}
+.youtube{
+  float: right;
+  margin-left: 25px;
+  width:50%;
+   height:430px;
+   border: 1px solid black ;
+}
